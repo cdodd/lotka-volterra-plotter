@@ -1,0 +1,11 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource>
+        <file>resources/arrow_undo.png</file>
+        <file>resources/calculator.png</file>
+        <file>resources/chart_line_delete.png</file>
+        <file>resources/door_open.png</file>
+        <file>resources/icon.svg</file>
+        <file>resources/icon_info.gif</file>
+    </qresource>
+</RCC>
