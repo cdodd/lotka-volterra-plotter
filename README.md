@@ -16,8 +16,8 @@ PyQt4 4.10.3 and matplotlib 1.2.1.
 It has also been tested to work on Ubuntu 13.10, running Python 3.3.2, PyQt4
 4.10.3 and matplotlib 1.2.1.
 
-Assuming you alredy have Git installed, to download and run the program on
-Ubuntu, run the following commands:
+To download and run the program on Ubuntu (assuming you alredy have Git
+installed) run the following commands:
 
 ```
 sudo apt-get install -y python-qt4 python-matplotlib
