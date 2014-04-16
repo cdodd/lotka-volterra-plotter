@@ -13,8 +13,8 @@ This program uses Python with the PyQt4 and matplotlib modules. It has been
 tested to work on Ubuntu 13.10, running Python 2.7.5 (stock Ubuntu Python),
 PyQt4 4.10.3 and matplotlib 1.2.1.
 
-It has also been tested to work on Ubuntu 13.10, running Python 3.3.2, PyQt4
-4.10.3 and matplotlib 1.2.1.
+It has also been tested to work on Ubuntu 13.10, running Python 3.3.2 (via the
+`python3` package), PyQt4 4.10.3 and matplotlib 1.2.1.
 
 To download and run the program on Ubuntu (assuming you alredy have Git
 installed) run the following commands:
