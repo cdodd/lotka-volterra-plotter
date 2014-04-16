@@ -40,3 +40,39 @@ class TestGrowthCalculator:
         # Calculate the population growths and compare to the expected results
         actual_results = self.growth_calculator.calculate()
         assert(actual_results == expected_results)
+
+    def test_growth_calculator_2(self):
+        self.growth_calculator.a = 0.04
+        self.growth_calculator.b = 0.1
+        self.growth_calculator.c = 1.0
+        self.growth_calculator.d = 0.073
+        self.growth_calculator.predators = 3
+        self.growth_calculator.prey = 20
+        self.growth_calculator.iterations = 7
+        self.growth_calculator.dt = 0.01
+
+        # Define the expected results
+        expected_results = {
+            'prey': [
+                19.9479299588,
+                19.895721936011856,
+                19.8433787738455,
+                19.790903335727396,
+                19.738298505684906,
+                19.685567187722064,
+                19.632712305186992,
+            ],
+            'predator': [
+                3.013774538076,
+                3.0274970884979107,
+                3.0411660643883405,
+                3.0547798800787245,
+                3.068336951550548,
+                3.0818356968782594,
+                3.095274536673641,
+            ],
+        }
+
+        # Calculate the population growths and compare to the expected results
+        actual_results = self.growth_calculator.calculate()
+        assert(actual_results == expected_results)
